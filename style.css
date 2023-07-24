@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    border: 0px;
+    margin: 0px;
+}
+
+a {
+    color: #FFD700;
+}
+
+body {
+    display: flex;
+    background-color: #FFD700;
+    color: #000080;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.destaque-titulo {
+    color: #191970;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.apresentacao__links{
+    display:flex ;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #000080;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 20px 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: 5px 5px 0.5px rgb(190, 178, 5);
+}
+
+img {
+    width: 700px;
+    box-shadow: 5px 5px 0.5px rgba(190, 178, 5);
+}
